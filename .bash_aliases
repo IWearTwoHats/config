@@ -1,5 +1,8 @@
 # Aliases.
 
+# TTT
+alias t='ttt'
+
 # Git commands
 alias grao='git remote add origin'
 alias grso='git remote show origin'
