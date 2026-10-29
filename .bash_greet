@@ -1,0 +1,2 @@
+echo "Welcome, $(whoami)"
+echo "It is currently $(date '+%I:%M:%S %p')"
