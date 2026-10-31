@@ -4,13 +4,18 @@
 alias t='ttt'
 
 # Git commands
+alias gin='git init'
 alias grao='git remote add origin'
 alias grso='git remote show origin'
 alias gs='git status'
+alias gsn='git status -uno'
 alias gl='git log'
 alias ga='git add'
+alias gco='git commit'
+alias gcm='git commit -m'
 alias gp='git push'
 alias gpl='git pull'
+alias gplsu='git pull --set-upstream origin main'
 
 # Data visualization
 alias diff='diff -u --color'
