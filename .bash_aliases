@@ -15,6 +15,7 @@ alias gco='git commit'
 alias gcm='git commit -m'
 alias gp='git push'
 alias gpl='git pull'
+alias gd='git diff'
 alias gplsu='git pull --set-upstream origin main'
 
 # Data visualization
