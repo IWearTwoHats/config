@@ -22,6 +22,8 @@ autocmd FileType * set formatoptions-=cro
 " Highlight whitespace
 highlight ExtraWhitespace ctermbg=green
 match ExtraWhitespace /\s\+$/
+highlight Todo ctermbg=yellow
+match Todo /TODO/
 
 " Allow highlighting in markdown code blocks
 let g:markdown_fenced_languages = ['html', 'python']
