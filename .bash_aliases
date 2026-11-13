@@ -30,8 +30,8 @@ alias py='python3'
 # ls
 alias ls='eza'
 alias la='eza -a'
-alias ll='eza -lh'
-alias lla='eza -lah'
+alias ll='eza -lhg'
+alias lla='eza -lahg'
 
 # navigation
 alias ..='cd ..'
@@ -55,3 +55,10 @@ alias clean='make clean'
 alias rb='systemctl reboot'
 alias reboot='systemctl reboot'
 alias restart='systemctl restart'
+
+# I know, this is a function. Shush.
+ro() {
+	local file="$1"
+	
+	bat "$file" --color=always -n | less -r
+}
