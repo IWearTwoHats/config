@@ -8,7 +8,7 @@
   "editor": {
     "tabSize": 4,
     "insertSpaces": false,
-    "wordWrap": false,
+    "wordWrap": true,
     "diffMode": "split",
     "diffContext": "changes",
     "diffWordWrap": false,

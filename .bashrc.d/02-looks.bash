@@ -14,13 +14,13 @@ dev-prompt() {
 	export PS1="$exit_code_paren\[\e[0m\e[38;5;10m\]\u\[\e[0m\] \[\e[38;5;12m\]\W\[\e[0m\] $jobs_num_bracket\$ "
 }
 
+short-prompt() {
+	export PS1="$exit_code_paren\[\e[0m\e[38;5;207m\]\s \[\e[38;5;12m\]\H\[\e[0m\] $jobs_num_bracket\$ "
+}
+
 dev() {
 	cd ~/Development
 	dev-prompt
-}
-
-short-prompt() {
-	export PS1="$exit_code_paren\[\e[0m\e[38;5;207m\]\s \[\e[38;5;208m\]\v\[\e[0m\] $jobs_num_bracket\$ "
 }
 
 regular-prompt () {
