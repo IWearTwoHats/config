@@ -20,6 +20,9 @@ alias gplsu='git pull --set-upstream origin main'
 
 # Data visualization
 alias diff='diff -u --color'
+if [ -f '/usr/bin/batcat' ]; then
+	alias bat='/usr/bin/batcat'
+fi
 
 # pipes
 alias hl='rg --passthru'
