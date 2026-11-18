@@ -62,3 +62,10 @@ ro() {
 	
 	bat "$file" --color=always -n | less -r
 }
+
+ips() {
+	local ip
+	for ip in $(hostname -I); do
+		echo "$ip"
+	done
+}
