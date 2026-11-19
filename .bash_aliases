@@ -20,6 +20,7 @@ alias gplsu='git pull --set-upstream origin main'
 
 # Data visualization
 alias diff='diff -u --color'
+alias ro='vim -R'
 if [ -f '/usr/bin/batcat' ]; then
 	alias bat='/usr/bin/batcat'
 fi
@@ -60,12 +61,6 @@ alias reboot='systemctl reboot'
 alias restart='systemctl restart'
 
 # I know, this is a function. Shush.
-ro() {
-	local file="$1"
-	
-	bat "$file" --color=always -n | less -r
-}
-
 ips() {
 	local ip
 	for ip in $(hostname -I); do
